@@ -1,0 +1,19 @@
+.accordion {
+    list-style: none;
+    padding: 0;
+}
+
+.accordion-item-title {
+    width: 100%;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+}
+
+.close {
+    display: none;
+}
+
+.open {
+    display: block;
+}

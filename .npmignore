@@ -1,0 +1,13 @@
+node_modules/
+src/
+wiki/
+coverage/
+.storybook
+.idea
+
+
+rollup.config.js
+jest.config.ts
+setup-jest.js
+tsconfig.json
+babel.config.js
