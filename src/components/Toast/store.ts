@@ -31,7 +31,11 @@ export const toastsStore = {
   },
   getSnapshot() {
     return toasts;
-  }
+  },
+  reset() {
+    toasts = []
+    subscribers = []
+  },
 }
 
 function emitChange() {
